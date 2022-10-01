@@ -19,7 +19,7 @@ contract Variables {
     // store address
     address public myAdd;
 
-    function doSomething() public  {
+    function doSomething() public view {
         // Local variables are not saved to the blockchain.
         uint i = 456;
 
