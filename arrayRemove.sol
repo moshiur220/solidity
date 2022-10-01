@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
-
+/*
+Examples of removing array element
+Remove array element by shifting elements from right to left */
 contract ArrayRemoveByShifting {
     // [1, 2, 3] -- remove(1) --> [1, 3, 3] --> [1, 3]
     // [1, 2, 3, 4, 5, 6] -- remove(2) --> [1, 2, 4, 5, 6, 6] --> [1, 2, 4, 5, 6]
